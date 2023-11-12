@@ -1,0 +1,10 @@
+1. mkdir fsantamaria 
+2. cd fsantamaria 
+3. touch ApartatA.txt 
+4. mkdir un dos tres 
+5. cat > un.txt 
+6. ps aux >> dos/processos.txt 
+7. ps aux >> fsantamaria/dos/processos.txt 
+8. ps aux |awk '{print $2}' >> ./fsantamaria/dos/processos.txt && ps aux| awk '{print $9}' >> ./fsantamaria/dos/processos.txt 
+9. ps aux| awk '{print NR, $0}' 
+10. awk '$1 >= 100 && $1 < 1000 {print $1 ":" $2 ":" $11}' processos.txt >> processos.txt 

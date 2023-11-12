@@ -1,0 +1,9 @@
+1. grep -i -w Moby MobyDick.txt | wc -l 
+2. grep -i -w Moby MobyDick.txt | wc -w 
+3. grep -i -w if MobyDick.txt | wc -l 
+4. grep -i -w "CHAPTER" MobyDick.txt >> capitulos.txt 
+5. grep -i -w "^Moby" MobyDick.txt | wc -l 
+6. grep -i -w "Dick$" MobyDick.txt | wc -l 
+7. grep -i -w -A 1 "CHAPTER" MobyDick.txt >> resum.txt 
+8. sed 's/Whale/ CACHALOTE/g' MobyDick.txt >> cachalote.txt 
+9. awk '{print $1 ":" $4}' processos.txt > processos2.txt 
